@@ -4,7 +4,7 @@
   "description": "publish metrics to kafka from statsd",
   "main": "kafka-backend.js",
   "author": "Dan Maas",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
