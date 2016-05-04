@@ -1,0 +1,12 @@
+{
+  "name": "kafka-backend",
+  "version": "1.0.0",
+  "description": "publish metrics to kafka from statsd",
+  "main": "kafka-backend.js",
+  "author": "Dan Maas",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
