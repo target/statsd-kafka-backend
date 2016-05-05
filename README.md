@@ -1,5 +1,5 @@
 # kafka-backend
-Statsd backend for sending metrics to kafka.
+[Etsy Statsd backend](https://github.com/etsy/statsd/blob/master/docs/backend_interface.md) for sending metrics to kafka.
 This relies on posting stats data to a kafka rest proxy endpoint.
 
 This is based on [statsd-http-backend](https://github.com/bmhatfield/statsd-http-backend), and made specific to kafka.
