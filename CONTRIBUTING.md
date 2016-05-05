@@ -2,7 +2,7 @@
 
 You're interested in contributing? *AWESOME*. Here are the basic steps:
 
-fork StatsD from here: http://github.com/etsy/statsd
+fork statsd-kafka-backend from here: https://github.com/target/statsd-kafka-backend
 
 1. Clone your fork
 2. Hack away
