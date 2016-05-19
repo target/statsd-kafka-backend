@@ -10,8 +10,12 @@
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
+    "eslint": "^2.10.1"
   },
   "devDependencies": {
+  },
+  "scripts": {
+    "eslint": "node_modules/eslint/bin/eslint.js kafka-backend.js"
   },
   "engine": {
     "node": ">=0.4"
