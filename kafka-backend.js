@@ -1,6 +1,9 @@
 /*
  * Flush stats to kafka (http://kafka.apache.org/).
  *
+ * Currently, only publishing metrics via the kafka rest proxy is supported.
+ * A nice enhancement would be to allow publishing via the kafka binary protocol as well.
+ *
  * To enable this backend, include 'kafka-backend' in the backends
  * configuration array:
  *
