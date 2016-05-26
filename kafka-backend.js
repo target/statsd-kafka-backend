@@ -185,7 +185,7 @@ var flush_stats = function kafka_flush(ts, metrics) {
       } else {
         for (var timer_data_sub_key in timer_data[key][timer_data_key]) {
           var mpath = the_key + '.' + timer_data_key + '.' + timer_data_sub_key;
-          var mval = timer_data[key][timer_data_key][timer_data_sub_key]
+          var mval = timer_data[key][timer_data_key][timer_data_sub_key];
           if (debug) {
             util.log(mval.toString());
           }
