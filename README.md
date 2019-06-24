@@ -15,7 +15,7 @@ npm install git+ssh://git@github.com:target/statsd-kafka-backend.git
 {
   restProxyUrl: "http://localhost:8082/topics",
   kafkaTopic: "test-metrics-api",
-  backends: [ "kafka-backend" ]
+  backends: [ "./node_modules/statsd-kafka-backend/kafka-backend" ]
 }
 ```
 
