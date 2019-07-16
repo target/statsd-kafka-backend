@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "description": "publish metrics to kafka from statsd",
   "author": "Dan Maas",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/target/statsd-kafka-backend.git"
   },
-  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
-    "eslint": "^2.10.1"
+    "eslint": "^4.19.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "eslint": "node_modules/eslint/bin/eslint.js kafka-backend.js"
   },
